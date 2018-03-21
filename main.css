@@ -49,9 +49,8 @@ body {
   width: 500px;
   text-align: right;
   border-left: 2px solid #476c96; }
-
-.fa-user, .fa-caret-down {
-  fill: white !important; }
+  #user-circle .fa-user-circle, #user-circle .fa-caret-down {
+    fill: white; }
 
 .header-bottom {
   padding-right: 300px;
@@ -153,8 +152,8 @@ div#info > div {
     justify-content: space-between;
     padding-right: 20px; }
 
-div#activity-feed i:hover {
-  color: #777; }
+div#activity-feed svg:hover {
+  fill: #777; }
 
 #activity-feed > div:nth-child(3), #activity-feed > div:nth-child(5) {
   border-left: 2px solid #e9e8e4;
@@ -253,7 +252,7 @@ div.add-user > div:first-child, div.add-user > div > img:first-child {
   justify-content: flex-start;
   align-items: baseline; }
 
-div.mobile > i {
+div.mobile > svg {
   padding-left: 8px; }
 div.add-user-info > h3, div.mobile > h3 {
   color: #3f4f5f;
@@ -290,7 +289,7 @@ div.add-user-info > p {
   border-bottom-left-radius: 10px; }
   .block-bottom:hover {
     cursor: pointer; }
-  .block-bottom > i {
+  .block-bottom > svg {
     padding-left: 10px;
     color: #4d75a3; }
 
@@ -426,10 +425,10 @@ div.message {
   justify-content: space-around;
   border-top: 1px solid #e9e8e4; }
 
-i.fa-smile-o, i.fa-paperclip {
+svg.fa-smile, svg.fa-paperclip {
   font-size: 1.5em; }
-i.fa-smile-o:hover, i.fa-paperclip:hover {
-  color: #96a3b3; }
+svg.fa-smile:hover, svg.fa-paperclip:hover {
+  fill: #96a3b3; }
 
 input {
   width: 70%;
@@ -463,10 +462,10 @@ input {
       padding-right: 100px;
       color: #4d75a3;
       font-size: 1.2rem; }
-  .dialogues-header i {
+  .dialogues-header svg {
     padding: 0 10px; }
-    .dialogues-header i:hover {
-      color: #777; }
+    .dialogues-header svg:hover {
+      fill: #777; }
   .dialogues-header > div:last-child {
     display: flex;
     flex-direction: row;
@@ -492,7 +491,7 @@ input {
   border-bottom: 1px solid #e9e8e4; }
   .dialogues-list > div:first-child {
     height: 700px;
-    width: 332px;
+    width: 339px;
     border-right: 1px solid #e9e8e4;
     overflow-x: hidden; }
 
@@ -621,10 +620,10 @@ textarea {
 .dialogues-space-bottom > div:last-child {
   display: flex;
   flex-direction: row; }
-.dialogues-space-bottom i {
+.dialogues-space-bottom svg {
   margin-right: 160px;
-  color: #a6bad1; }
-  .dialogues-space-bottom i:first-child {
+  fill: #a6bad1; }
+  .dialogues-space-bottom svg:first-child {
     margin-left: 20px; }
 .dialogues-space-bottom > div:last-child p {
   padding-left: 360px;
@@ -642,7 +641,49 @@ textarea {
   padding-bottom: 140px; }
 
 .svg {
-  width: 14.84px;
   height: 16px; }
+
+.fa-bell, .fa-comments, .fa-user-circle, .fa-flag, .fa-window-maximize {
+  width: 16px; }
+
+.fa-users, .fa-image {
+  width: 17.14px; }
+
+.fa-caret-down {
+  width: 9.14px; }
+
+.fa-search, .fa-sign-out, .fa-thumbs-up, .fa-calendar {
+  width: 14.84px; }
+
+.fa-cog {
+  width: 13.7px; }
+
+.fa-user {
+  width: 14.42px; }
+
+.fa-mobile {
+  width: 6.6px; }
+
+.fa-times, .fa-microphone-slash {
+  width: 12.56px; }
+
+.fa-smile {
+  width: 20.56px;
+  height: 24px; }
+
+.fa-paperclip {
+  width: 18.84px;
+  height: 24px; }
+
+.fa-user-plus {
+  width: 18.28px; }
+
+.fa-ellipsis-h, .fa-pencil {
+  fill: #a2b1c9;
+}
+
+b > svg {
+  padding: 0px !important;
+}
 
 /*# sourceMappingURL=main.css.map */
