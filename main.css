@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 body {
   background-color: #e9e8e4;
   margin: 120px;
-  font-family: Source Sans Pro Regular;
+  font-family: Source Sans Pro Regular, sans-serif;
   color: #96a3b3; }
 
 .header, .profile, .block, .dialogues {
