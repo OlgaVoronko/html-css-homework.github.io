@@ -9,7 +9,7 @@ body {
 .header, .profile, .block, .dialogues {
   background-color: white;
   border-radius: 10px;
-  max-width: 1160px; }
+  max-width: 1120px; }
 
 .header {
   height: 150px;
@@ -494,7 +494,8 @@ input {
   border-bottom: 1px solid #e9e8e4; }
   .dialogues-list > div:first-child {
     height: 700px;
-    width: 339px;
+    min-width: 339px;
+    max-width: 340px;
     border-right: 1px solid #e9e8e4;
     overflow-x: hidden; }
 
