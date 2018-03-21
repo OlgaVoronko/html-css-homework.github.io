@@ -6,7 +6,7 @@ body {
   font-family: Source Sans Pro Regular, sans-serif;
   color: #96a3b3; }
 
-.header, .profile, .block, .dialogues {
+.header, .profile, .blocks, .dialogues {
   background-color: white;
   border-radius: 10px;
   max-width: 1120px; }
