@@ -8,7 +8,8 @@ body {
 
 .header, .profile, .block, .dialogues {
   background-color: white;
-  border-radius: 10px; }
+  border-radius: 10px;
+  max-width: 1160px; }
 
 .header {
   height: 150px;
