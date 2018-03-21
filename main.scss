@@ -47,11 +47,12 @@ body {
   border-left: 2px solid #476c96;
 }
 
-i.fa {
-  color: #a2b1c9;
+.fa {
+  fill: #a2b1c9;
+  width: 16px;
 
   &:hover {
-    color: white;
+    fill: white;
     cursor: pointer;
   }
 }
@@ -63,10 +64,8 @@ i.fa {
   border-left: 2px solid #476c96;
 }
 
-i {
-  &.fa-user-circle-o, &.fa-caret-down {
-    color: white;
-  }
+.fa-user, .fa-caret-down {
+    fill: white !important;
 }
 
 .header-bottom {
@@ -704,6 +703,7 @@ input {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 140px;
 
   p {
     background-color: #ebf4fa;
@@ -832,4 +832,9 @@ textarea {
   height: 555px;
   overflow-y: auto;
   padding-bottom: 140px;
+}
+
+.svg {
+  width: 14.84px;
+  height: 16px;
 }

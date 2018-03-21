@@ -37,10 +37,11 @@ body {
   width: 70px;
   border-left: 2px solid #476c96; }
 
-i.fa {
-  color: #a2b1c9; }
-  i.fa:hover {
-    color: white;
+.fa {
+  fill: #a2b1c9;
+  width: 16px; }
+  .fa:hover {
+    fill: white;
     cursor: pointer; }
 
 #user-circle {
@@ -49,8 +50,8 @@ i.fa {
   text-align: right;
   border-left: 2px solid #476c96; }
 
-i.fa-user-circle-o, i.fa-caret-down {
-  color: white; }
+.fa-user, .fa-caret-down {
+  fill: white !important; }
 
 .header-bottom {
   padding-right: 300px;
@@ -546,7 +547,8 @@ input {
 #mike-dialog {
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  width: 140px; }
   #mike-dialog p {
     background-color: #ebf4fa;
     padding-bottom: 0px;
@@ -638,5 +640,9 @@ textarea {
   height: 555px;
   overflow-y: auto;
   padding-bottom: 140px; }
+
+.svg {
+  width: 14.84px;
+  height: 16px; }
 
 /*# sourceMappingURL=main.css.map */
